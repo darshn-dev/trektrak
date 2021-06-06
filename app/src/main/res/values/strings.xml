@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">Trek Trak</string>
-    <string name="google_map_key"></string>
+    <string name="google_map_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAotQrjMj3xZnYE5aVh8OTzn-Dk8ATfxKg</string>
+
+    <string-array name="filter_options">
+        <item>Date</item>
+        <item>Running Time</item>
+        <item>Distance</item>
+        <item>Average Speed</item>
+        <item>Calories Burned</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

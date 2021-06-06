@@ -16,7 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrekTrak">
-        <activity android:name=".MainActivity" android:launchMode="singleTask">
+        <activity android:name=".ui.MainActivity" android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,6 +33,10 @@
             >
 
         </meta-data>
+
+        <service android:name=".services.TrackingService"
+            android:foregroundServiceType="location"
+            ></service>
     </application>
 
 </manifest>
